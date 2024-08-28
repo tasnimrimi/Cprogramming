@@ -105,6 +105,13 @@ build CMakeFiles/cs50.dir/CHAPTER2.c.o: C_COMPILER__cs50_unscanned_Debug /home/t
   OBJECT_DIR = CMakeFiles/cs50.dir
   OBJECT_FILE_DIR = CMakeFiles/cs50.dir
 
+build CMakeFiles/cs50.dir/Pointer_assignments.c.o: C_COMPILER__cs50_unscanned_Debug /home/tasnim/Projects/CProgramming/Pointer_assignments.c || cmake_object_order_depends_target_cs50
+  DEP_FILE = CMakeFiles/cs50.dir/Pointer_assignments.c.o.d
+  FLAGS = -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/tasnim/Projects/CProgramming/cs50/include
+  OBJECT_DIR = CMakeFiles/cs50.dir
+  OBJECT_FILE_DIR = CMakeFiles/cs50.dir
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target cs50
@@ -113,7 +120,7 @@ build CMakeFiles/cs50.dir/CHAPTER2.c.o: C_COMPILER__cs50_unscanned_Debug /home/t
 #############################################
 # Link the static library libcs50.a
 
-build libcs50.a: C_STATIC_LIBRARY_LINKER__cs50_Debug CMakeFiles/cs50.dir/cs50/cs50.c.o CMakeFiles/cs50.dir/String.c.o CMakeFiles/cs50.dir/Phonebook.c.o CMakeFiles/cs50.dir/Iteration.c.o CMakeFiles/cs50.dir/Recursion.c.o CMakeFiles/cs50.dir/Address.c.o CMakeFiles/cs50.dir/Chapter1.c.o CMakeFiles/cs50.dir/CHAPTER2.c.o
+build libcs50.a: C_STATIC_LIBRARY_LINKER__cs50_Debug CMakeFiles/cs50.dir/cs50/cs50.c.o CMakeFiles/cs50.dir/String.c.o CMakeFiles/cs50.dir/Phonebook.c.o CMakeFiles/cs50.dir/Iteration.c.o CMakeFiles/cs50.dir/Recursion.c.o CMakeFiles/cs50.dir/Address.c.o CMakeFiles/cs50.dir/Chapter1.c.o CMakeFiles/cs50.dir/CHAPTER2.c.o CMakeFiles/cs50.dir/Pointer_assignments.c.o
   OBJECT_DIR = CMakeFiles/cs50.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -206,6 +213,20 @@ build CMakeFiles/CProgramming.dir/Filetwo.c.o: C_COMPILER__CProgramming_unscanne
   OBJECT_DIR = CMakeFiles/CProgramming.dir
   OBJECT_FILE_DIR = CMakeFiles/CProgramming.dir
 
+build CMakeFiles/CProgramming.dir/Pointer_assignments.c.o: C_COMPILER__CProgramming_unscanned_Debug /home/tasnim/Projects/CProgramming/Pointer_assignments.c || cmake_object_order_depends_target_CProgramming
+  DEP_FILE = CMakeFiles/CProgramming.dir/Pointer_assignments.c.o.d
+  FLAGS = -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/tasnim/Projects/CProgramming/cs50/include
+  OBJECT_DIR = CMakeFiles/CProgramming.dir
+  OBJECT_FILE_DIR = CMakeFiles/CProgramming.dir
+
+build CMakeFiles/CProgramming.dir/Stack.c.o: C_COMPILER__CProgramming_unscanned_Debug /home/tasnim/Projects/CProgramming/Stack.c || cmake_object_order_depends_target_CProgramming
+  DEP_FILE = CMakeFiles/CProgramming.dir/Stack.c.o.d
+  FLAGS = -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/tasnim/Projects/CProgramming/cs50/include
+  OBJECT_DIR = CMakeFiles/CProgramming.dir
+  OBJECT_FILE_DIR = CMakeFiles/CProgramming.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CProgramming
@@ -214,7 +235,7 @@ build CMakeFiles/CProgramming.dir/Filetwo.c.o: C_COMPILER__CProgramming_unscanne
 #############################################
 # Link the executable CProgramming
 
-build CProgramming: C_EXECUTABLE_LINKER__CProgramming_Debug CMakeFiles/CProgramming.dir/main.c.o CMakeFiles/CProgramming.dir/String.c.o CMakeFiles/CProgramming.dir/Iteration.c.o CMakeFiles/CProgramming.dir/Chapter1.c.o CMakeFiles/CProgramming.dir/CHAPTER2.c.o CMakeFiles/CProgramming.dir/Chapter1.1.c.o CMakeFiles/CProgramming.dir/chapter1/section-2.c.o CMakeFiles/CProgramming.dir/chapter1/section-exercise.c.o CMakeFiles/CProgramming.dir/Bookrough.c.o CMakeFiles/CProgramming.dir/Fileone.c.o CMakeFiles/CProgramming.dir/Filetwo.c.o | libcs50.a || libcs50.a
+build CProgramming: C_EXECUTABLE_LINKER__CProgramming_Debug CMakeFiles/CProgramming.dir/main.c.o CMakeFiles/CProgramming.dir/String.c.o CMakeFiles/CProgramming.dir/Iteration.c.o CMakeFiles/CProgramming.dir/Chapter1.c.o CMakeFiles/CProgramming.dir/CHAPTER2.c.o CMakeFiles/CProgramming.dir/Chapter1.1.c.o CMakeFiles/CProgramming.dir/chapter1/section-2.c.o CMakeFiles/CProgramming.dir/chapter1/section-exercise.c.o CMakeFiles/CProgramming.dir/Bookrough.c.o CMakeFiles/CProgramming.dir/Fileone.c.o CMakeFiles/CProgramming.dir/Filetwo.c.o CMakeFiles/CProgramming.dir/Pointer_assignments.c.o CMakeFiles/CProgramming.dir/Stack.c.o | libcs50.a || libcs50.a
   LINK_LIBRARIES = libcs50.a
   OBJECT_DIR = CMakeFiles/CProgramming.dir
   POST_BUILD = :
@@ -734,6 +755,70 @@ build Filetwo: C_EXECUTABLE_LINKER__Filetwo_Debug CMakeFiles/Filetwo.dir/Filetwo
   TARGET_FILE = Filetwo
   TARGET_PDB = Filetwo.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target Pointer_assignments
+
+
+#############################################
+# Order-only phony target for Pointer_assignments
+
+build cmake_object_order_depends_target_Pointer_assignments: phony || cmake_object_order_depends_target_cs50
+
+build CMakeFiles/Pointer_assignments.dir/Pointer_assignments.c.o: C_COMPILER__Pointer_assignments_unscanned_Debug /home/tasnim/Projects/CProgramming/Pointer_assignments.c || cmake_object_order_depends_target_Pointer_assignments
+  DEP_FILE = CMakeFiles/Pointer_assignments.dir/Pointer_assignments.c.o.d
+  FLAGS = -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/tasnim/Projects/CProgramming/cs50/include
+  OBJECT_DIR = CMakeFiles/Pointer_assignments.dir
+  OBJECT_FILE_DIR = CMakeFiles/Pointer_assignments.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Pointer_assignments
+
+
+#############################################
+# Link the executable Pointer_assignments
+
+build Pointer_assignments: C_EXECUTABLE_LINKER__Pointer_assignments_Debug CMakeFiles/Pointer_assignments.dir/Pointer_assignments.c.o | libcs50.a || libcs50.a
+  LINK_LIBRARIES = libcs50.a
+  OBJECT_DIR = CMakeFiles/Pointer_assignments.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Pointer_assignments
+  TARGET_PDB = Pointer_assignments.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Order-only phony target for Stack
+
+build cmake_object_order_depends_target_Stack: phony || cmake_object_order_depends_target_cs50
+
+build CMakeFiles/Stack.dir/Stack.c.o: C_COMPILER__Stack_unscanned_Debug /home/tasnim/Projects/CProgramming/Stack.c || cmake_object_order_depends_target_Stack
+  DEP_FILE = CMakeFiles/Stack.dir/Stack.c.o.d
+  FLAGS = -std=gnu11 -fdiagnostics-color=always
+  INCLUDES = -I/home/tasnim/Projects/CProgramming/cs50/include
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  OBJECT_FILE_DIR = CMakeFiles/Stack.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target Stack
+
+
+#############################################
+# Link the executable Stack
+
+build Stack: C_EXECUTABLE_LINKER__Stack_Debug CMakeFiles/Stack.dir/Stack.c.o | libcs50.a || libcs50.a
+  LINK_LIBRARIES = libcs50.a
+  OBJECT_DIR = CMakeFiles/Stack.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = Stack
+  TARGET_PDB = Stack.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -770,7 +855,7 @@ build cs50: phony libcs50.a
 #############################################
 # Folder: /home/tasnim/Projects/CProgramming/cmake-build-debug
 
-build all: phony libcs50.a CProgramming Mario Array String Phonebook Iteration Recursion Address Memory Chapter1 Chapter1.1 Chapter_1_S2 Chapter_1_SE CHAPTER2 Bookrough Fileone Filetwo
+build all: phony libcs50.a CProgramming Mario Array String Phonebook Iteration Recursion Address Memory Chapter1 Chapter1.1 Chapter_1_S2 Chapter_1_SE CHAPTER2 Bookrough Fileone Filetwo Pointer_assignments Stack
 
 # =============================================================================
 # Built-in targets

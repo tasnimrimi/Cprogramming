@@ -16,5 +16,7 @@
 /home/tasnim/Projects/CProgramming/cmake-build-debug/CMakeFiles/Bookrough.dir
 /home/tasnim/Projects/CProgramming/cmake-build-debug/CMakeFiles/Fileone.dir
 /home/tasnim/Projects/CProgramming/cmake-build-debug/CMakeFiles/Filetwo.dir
+/home/tasnim/Projects/CProgramming/cmake-build-debug/CMakeFiles/Pointer_assignments.dir
+/home/tasnim/Projects/CProgramming/cmake-build-debug/CMakeFiles/Stack.dir
 /home/tasnim/Projects/CProgramming/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/tasnim/Projects/CProgramming/cmake-build-debug/CMakeFiles/rebuild_cache.dir

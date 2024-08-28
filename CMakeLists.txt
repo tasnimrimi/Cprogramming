@@ -14,6 +14,8 @@ add_library(cs50 STATIC cs50/cs50.c
         Address.c
         Chapter1.c
         CHAPTER2.c
+        Pointer_assignments.c
+        Pointer_assignments.c
 )
 target_include_directories(cs50 PUBLIC cs50/include)
 
@@ -30,6 +32,9 @@ add_executable(CProgramming main.c
         Bookrough.c
         Fileone.c
         Filetwo.c
+        Pointer_assignments.c
+        Pointer_assignments.c
+        Stack.c
 )
 target_link_libraries(CProgramming cs50)
 
@@ -109,3 +114,16 @@ target_link_libraries(Fileone cs50)
 add_executable(Filetwo Filetwo.c
         Filetwo.c)
 target_link_libraries(Filetwo cs50)
+
+#Chapter 5
+ ##pointer Assignments
+add_executable(Pointer_assignments Pointer_assignments.c
+        Pointer_assignments.c)
+target_link_libraries(Pointer_assignments  cs50)
+ ##Stack-push or pop
+add_executable(Stack Stack.c
+        Stack.c)
+target_link_libraries(Stack  cs50)
+
+
+
