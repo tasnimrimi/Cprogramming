@@ -1,0 +1,231 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.27"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CProgramming",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Address::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Address-Debug-94fdbf186f3c786a06b0.json",
+					"name" : "Address",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Array::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Array-Debug-f8a0aa19834195d45592.json",
+					"name" : "Array",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Bookrough::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Bookrough-Debug-1b95c2ad4ede551a1f5d.json",
+					"name" : "Bookrough",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CHAPTER2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CHAPTER2-Debug-566a98fd815663c174f6.json",
+					"name" : "CHAPTER2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "CProgramming::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CProgramming-Debug-2e69a5095a8c154abf35.json",
+					"name" : "CProgramming",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Chapter1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Chapter1-Debug-c7c08d3fe8978064da04.json",
+					"name" : "Chapter1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Chapter1.1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Chapter1.1-Debug-75af4759873ad08a8875.json",
+					"name" : "Chapter1.1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Chapter_1_S2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Chapter_1_S2-Debug-0c6381ed572f1e830e91.json",
+					"name" : "Chapter_1_S2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Chapter_1_SE::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Chapter_1_SE-Debug-e932911558413c7936af.json",
+					"name" : "Chapter_1_SE",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Fileone::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Fileone-Debug-381605279b4c7a669a53.json",
+					"name" : "Fileone",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Filetwo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Filetwo-Debug-daf167e05e7584d74487.json",
+					"name" : "Filetwo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Iteration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Iteration-Debug-63e257bd57c9c97c4c4d.json",
+					"name" : "Iteration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Mario::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Mario-Debug-dd5e6991c1de2aba0080.json",
+					"name" : "Mario",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Memory::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Memory-Debug-432ceb788222aecde0f7.json",
+					"name" : "Memory",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Phonebook::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Phonebook-Debug-5792098fa2f2e7bfa20f.json",
+					"name" : "Phonebook",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pointer_assignments::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pointer_assignments-Debug-884726910fcc277c343c.json",
+					"name" : "Pointer_assignments",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Recursion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Recursion-Debug-43b664329c58db1cae84.json",
+					"name" : "Recursion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Stack::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Stack-Debug-401e598a66d2e48fa717.json",
+					"name" : "Stack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "String::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-String-Debug-5edcf70df44d19611ffa.json",
+					"name" : "String",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cs50::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cs50-Debug-9ba8e92972ff4db29784.json",
+					"name" : "cs50",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tasnim/Projects/CProgramming/cmake-build-debug",
+		"source" : "/home/tasnim/Projects/CProgramming"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
